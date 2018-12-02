@@ -1,0 +1,214 @@
+body {
+  background-color:rgb(0,0,0);
+  color:rgb(255,255,255);
+}
+
+#photo-back {
+  width:100%;
+  height:100vh;
+  background-image:url("resort4.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#333;
+}
+
+@media (min-width: 768px) {
+  #photo-back {
+    background-image:url("resort4.jpg");
+  }
+}
+
+#navcol-1 {
+  font-size:13px;
+  font-family:Montserrat, sans-serif;
+  font-weight:600;
+  text-transform:uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:#222;
+  padding:10px;
+}
+
+#title {
+  font-family:Montserrat, sans-serif;
+  padding-top:10px;
+  font-weight:400;
+  font-size:27px;
+  margin-top:40px;
+}
+
+#subtitle {
+  font-family:Montserrat, sans-serif;
+  font-size:46px;
+  font-weight:bold;
+  padding-bottom:10px;
+}
+
+#hero-bottom {
+  padding-top:2rem;
+  color:#fff;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+.p-top {
+  font-size:26px;
+  font-family:Montserrat, sans-serif;
+  font-weight:bold;
+  margin-bottom:0;
+}
+
+.p-bot {
+  font-size:12px;
+  font-weight:100;
+}
+
+.reserve-button:hover, .reserve-button:focus, .reserve-button:active {
+  background-color:rgba(0,98,204,0) !important;
+  border:3px solid #fff !important;
+  box-shadow:none !important;
+}
+
+.reserve-button {
+  background-color:rgba(0,98,204,0);
+  border:3px solid #fff;
+  border-radius:30px;
+}
+
+.btn.btn-link.btn-block.arrow-button {
+  color:rgb(255,255,255);
+  font-size:32px;
+}
+
+#hero-bottom .container {
+  max-width:700px;
+  text-align:center;
+}
+
+.col.with-borders {
+  border:1px solid rgba(255,255,255,0.5);
+  border-top:0;
+  border-bottom:0;
+}
+
+#video-and-stats {
+  text-align:center;
+}
+
+#video-and-stats iframe {
+  width:90%;
+  height:400px;
+}
+
+@media (min-width: 992px) {
+  #video-and-stats iframe {
+    width:900px;
+    height:500px;
+  }
+}
+
+#stats {
+  width:90%;
+  margin:0 auto;
+  margin-bottom:150px;
+  font-size:15px;
+}
+
+@media (min-width: 768px) {
+  #stats {
+    width:600px;
+    margin:0 auto;
+    margin-bottom:150px;
+    font-size:15px;
+  }
+}
+
+#stats .table thead th {
+  text-align:left;
+  padding-left:0;
+  border-top:0;
+}
+
+#stats .cell-left {
+  text-align:left;
+  padding-left:0;
+}
+
+#stats .cell-right {
+  text-align:right;
+  font-weight:bold;
+  padding-right:0;
+}
+
+#aero {
+  width:100%;
+  height:100vh;
+  background-color:black;
+  background-repeat:no-repeat;
+}
+
+#aero .container {
+  margin-top:300px;
+}
+
+#aero .h3, h3 {
+  font-family:Montserrat, sans-serif;
+}
+
+#interior {
+  width:100%;
+  height:60vh;
+}
+
+@media (min-width: 768px) {
+  #interior {
+    padding-top:30px;
+    width:100%;
+    height:100vh;
+  }
+}
+
+#interior .figure {
+  max-width:90%;
+}
+
+@media (min-width: 768px) {
+  #interior .figure {
+    max-width:70%;
+  }
+}
+
+#interior .figure-caption {
+  color:rgb(255,255,255);
+  margin-top:15px;
+}
+
+#caption-title {
+  margin-right:20px;
+  font-size:20px;
+  font-family:Montserrat, sans-serif;
+}
+
+#topview {
+  width:100%;
+  height:120vh;
+  background-image:url("../../assets/img/resort1.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding-top:30px;
+}
+
+#topview .container {
+  margin-bottom:150px;
+}
+
+#topview .h4, h4 {
+  font-family:Montserrat, sans-serif;
+}
+
+#topview p {
+  font-weight:100;
+}
+
