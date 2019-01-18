@@ -3,30 +3,16 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>acm-student-chapter</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="assets/css/Animated-numbers-section.css">
-    <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/Features-Blue.css">
-    <link rel="stylesheet" href="assets/css/Features.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
-    <link rel="stylesheet" href="assets/css/Map-Clean.css">
-    <link rel="stylesheet" href="assets/css/photo-album.css">
-    <link rel="stylesheet" href="assets/css/Process-Steps.css">
-    <link rel="stylesheet" href="assets/css/Social-Icons.css">
-    <link rel="stylesheet" href="assets/css/Steps-Progressbar.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Team.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body>
@@ -37,7 +23,7 @@
                     <div class="collapse navbar-collapse"
                         id="navcol-1">
                         <ul class="nav navbar-nav mx-auto">
-                            <li class="nav-item" role="presentation"><a class="nav-link text-white active" href="index.html">NU ACM</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active text-white" href="index.html">NU ACM</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link text-white" href="upcoming-events.html">upcoming events</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link text-white" href="news.html">news</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link text-white" href="photo-album.html">Photos</a></li>
@@ -51,13 +37,15 @@
             </div>
         </div>
     </section>
-    <div data-aos="fade-up" data-aos-duration="1000" class="contact-clean"><form method="POST" style="color:rgb(235,242,248);" action="https://formspree.io/formspree@mailinator.com">
-    <h2 class="text-center">Contact us</h2>
-    <div class="form-group"><input type="text" name="name" placeholder="Name" class="form-control" style="background-color:rgb(15,26,37);" /></div>
-    <div class="form-group"><input type="email" name="email" placeholder="Email" class="form-control is-invalid" style="background-color:rgb(15,26,37);" /><small class="form-text text-danger">Please enter a correct email address.</small></div>
-    <div class="form-group"><textarea rows="14" name="message" placeholder="Message" class="form-control" style="background-color:rgb(15,26,37);"></textarea></div>
-    <div class="form-group"><button class="btn btn-primary" type="submit">send</button></div>
-</form></div>
+    <div class="contact-clean">
+        <form data-bss-recipient="675580ae91e768b5d141ce701bedc79e">
+            <h2 class="text-center text-white">Contact us</h2>
+            <div class="form-group"><input class="form-control" type="text" name="name" required="" placeholder="Name"></div>
+            <div class="form-group"><input class="form-control" type="email" name="email" required="" placeholder="Email"></div>
+            <div class="form-group"><textarea class="form-control" rows="14" name="message" required="" placeholder="Message" minlength="10"></textarea></div>
+            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+        </form>
+    </div>
     <div data-aos="fade-up" data-aos-duration="1000" class="map-clean">
         <div class="container">
             <div class="intro">
@@ -79,13 +67,12 @@
 </footer>
             <script src="assets/js/jquery.min.js"></script>
             <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+            <script src="assets/js/smart-forms.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
-            <script src="assets/js/Basic-fancyBox-Gallery.js"></script>
-            <script src="assets/js/Animated-numbers-section.js"></script>
-            <script src="assets/js/bs-animation.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
             <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+            <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
